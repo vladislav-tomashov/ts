@@ -14,11 +14,11 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var AbstractCollection_1 = require("./AbstractCollection");
-var NumberCollection = /** @class */ (function (_super) {
-    __extends(NumberCollection, _super);
-    function NumberCollection() {
+var StringCollection = /** @class */ (function (_super) {
+    __extends(StringCollection, _super);
+    function StringCollection() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    return NumberCollection;
+    return StringCollection;
 }(AbstractCollection_1.AbstractCollection));
-exports.NumberCollection = NumberCollection;
+exports.StringCollection = StringCollection;
